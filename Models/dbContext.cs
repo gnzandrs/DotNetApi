@@ -8,5 +8,7 @@ namespace DotNetApi.Models
             : base(options)
         {
         }
+
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }
